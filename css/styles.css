@@ -31,16 +31,16 @@ body {
   list-style: none;
 }
 
-.studio {
+nav li a:first-child {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--grey);
 }
 
-.studio:hover,
-.studio:focus {
+nav li a:first-child:hover,
+nav li a:first-child:focus {
   color: var(--light-blue-focus);
 }
 
@@ -112,4 +112,33 @@ body {
   text-align: center;
   text-transform: capitalize;
   color: var(--grey);
+}
+
+.section-four {
+  background-color: #f4f4fd;
+}
+
+.section-four-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--grey);
+}
+
+.section-four ul li {
+  background-color: var(--white);
+}
+.section-four li:first-child {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+
+.designation {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
