@@ -1,5 +1,4 @@
 :root {
-  /* --roboto: font-family: 'Baloo', cursive; */
   --white: #ffffff;
   --grey: #2e2f42;
   --light-grey: #434455;
@@ -24,7 +23,7 @@ body {
   color: var(--light-blue);
 }
 
-.logo > span {
+.header-logo-studio {
   color: var(--grey);
 }
 
@@ -160,4 +159,8 @@ nav li a:first-child:focus {
   line-height: 1.5;
   color: var(--dirty-white);
   letter-spacing: 0.02em;
+}
+
+.footer-logo-studio {
+  color: var(--dirty-white);
 }
