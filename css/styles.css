@@ -164,3 +164,38 @@ nav li a:first-child:focus {
 .footer-logo-studio {
   color: var(--dirty-white);
 }
+
+.profile-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--light-blue);
+}
+
+.profile-button:hover,
+.profile-button:focus {
+  color: var(--white);
+  background-color: var(--light-blue-focus);
+  cursor: pointer;
+}
+
+.service {
+  text-decoration: none;
+}
+
+.service-description {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+
+.service-type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-grey);
+}
