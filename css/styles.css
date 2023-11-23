@@ -2,3 +2,12 @@
   margin: 0;
   padding: 0;
 }
+
+:root {
+  /* --roboto: font-family: 'Baloo', cursive; */
+  --white: #ffffff;
+}
+
+body {
+  color: #434455;
+}
