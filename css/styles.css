@@ -3,6 +3,8 @@
   --white: #ffffff;
   --grey: #2e2f42;
   --light-grey: #434455;
+  --light-blue: #4d5ae5;
+  --light-blue-focus: #404bbf;
 }
 
 body {
@@ -18,11 +20,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--light-blue);
 }
 
 .logo > span {
-  color: var(-grey);
+  color: var(--grey);
 }
 
 .list {
@@ -39,7 +41,7 @@ body {
 
 .studio:hover,
 .studio:focus {
-  color: #404bbf;
+  color: var(--light-blue-focus);
 }
 
 .link {
@@ -59,5 +61,33 @@ body {
 
 .address a:hover,
 .address a:focus {
-  color: #404bbf;
+  color: var(--light-blue-focus);
+}
+
+.section-one {
+  background-color: var(--grey);
+}
+
+.section-one-header {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white);
+}
+
+.order {
+  background-color: var(--light-blue);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+}
+
+.order:hover,
+.order:focus {
+  background-color: var(--light-blue-focus);
+  cursor: pointer;
 }
