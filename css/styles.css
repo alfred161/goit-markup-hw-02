@@ -91,3 +91,17 @@ body {
   background-color: var(--light-blue-focus);
   cursor: pointer;
 }
+
+.section-two-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+}
+
+.strategy {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-grey);
+}
