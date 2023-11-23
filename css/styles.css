@@ -5,6 +5,7 @@
   --light-grey: #434455;
   --light-blue: #4d5ae5;
   --light-blue-focus: #404bbf;
+  --dirty-white: #f4f4fd;
 }
 
 body {
@@ -115,7 +116,7 @@ nav li a:first-child:focus {
 }
 
 .section-four {
-  background-color: #f4f4fd;
+  background-color: var(--dirty-white);
 }
 
 .section-four-header {
@@ -137,8 +138,26 @@ nav li a:first-child:focus {
   color: var(--grey);
 }
 
+.team-member {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .designation {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-grey);
+}
+
+.footer {
+  background-color: var(--grey);
+}
+
+.footer-content {
+  line-height: 1.5;
+  color: var(--dirty-white);
   letter-spacing: 0.02em;
 }
