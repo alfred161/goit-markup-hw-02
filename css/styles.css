@@ -172,6 +172,7 @@ nav li a:first-child:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--light-blue);
+  background-color: var(--dirty-white);
 }
 
 .profile-button:hover,
