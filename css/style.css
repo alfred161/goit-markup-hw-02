@@ -89,7 +89,6 @@ nav li a:first-child:focus {
 .order:hover,
 .order:focus {
   background-color: var(--light-blue-focus);
-  cursor: pointer;
 }
 
 /* .section-two-header {
