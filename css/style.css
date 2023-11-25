@@ -85,3 +85,23 @@ nav li a:first-child:focus {
   letter-spacing: 0.04em;
   color: var(--white);
 }
+
+.order:hover,
+.order:focus {
+  background-color: var(--light-blue-focus);
+  cursor: pointer;
+}
+
+/* .section-two-header {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--grey);
+} */
+
+/* .section-two-content {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-grey);
+} */
