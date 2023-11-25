@@ -7,13 +7,13 @@
   --dirty-white: #f4f4fd;
 }
 
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   color: var(--light-grey);
   background-color: var(--white);
-}
+} */
 
-.logo {
+/* .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -21,7 +21,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-blue);
-}
+} */
 
 /* .header-logo-studio {
   color: var(--grey);
