@@ -23,17 +23,17 @@ body {
   color: var(--light-blue);
 }
 
-/* .header-logo-studio {
+.header-logo-studio {
   color: var(--grey);
-} */
+}
 
-/* .list {
+.list {
   list-style: none;
-} */
+}
 
-/* .link {
+.link {
   text-decoration: none;
-} */
+}
 
 /* nav li a:first-child {
   font-weight: 500;
