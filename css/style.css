@@ -86,8 +86,7 @@ nav li a:first-child:focus {
   color: var(--white);
 }
 
-.order:hover,
-.order:focus {
+.order:hover {
   background-color: var(--light-blue-focus);
 }
 
