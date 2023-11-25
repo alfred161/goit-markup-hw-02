@@ -1,17 +1,17 @@
-:root {
+/* :root {
   --white: #ffffff;
   --grey: #2e2f42;
   --light-grey: #434455;
   --light-blue: #4d5ae5;
   --light-blue-focus: #404bbf;
   --dirty-white: #f4f4fd;
-}
+} */
 
-body {
+/* body {
   font-family: "Roboto", sans-serif;
   color: var(--light-grey);
   background-color: var(--white);
-}
+} */
 
 /* .logo {
   font-family: "Raleway", sans-serif;
