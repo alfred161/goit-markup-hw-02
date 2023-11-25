@@ -7,6 +7,10 @@
   --dirty-white: #f4f4fd;
 }
 
+* {
+  margin: 0;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--light-grey);
@@ -48,21 +52,21 @@ nav li a:first-child:focus {
   color: var(--light-blue-focus);
 }
 
-/* .address {
+.address {
   font-style: normal;
-} */
+}
 
-/* .address a {
+.address a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-grey);
-} */
+}
 
-/* .address a:hover,
+.address a:hover,
 .address a:focus {
   color: var(--light-blue-focus);
-} */
+}
 
 /* .section-one {
   background-color: var(--grey);
