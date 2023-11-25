@@ -6,3 +6,9 @@
   --light-blue-focus: #404bbf;
   --dirty-white: #f4f4fd;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--light-grey);
+  background-color: var(--white);
+}
