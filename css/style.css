@@ -6,3 +6,19 @@
   --light-blue-focus: #404bbf;
   --dirty-white: #f4f4fd;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--light-grey);
+  background-color: var(--white);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--light-blue);
+}
