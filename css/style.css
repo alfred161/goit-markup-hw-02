@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 /* :root {
   --white: #ffffff;
   --grey: #2e2f42;
