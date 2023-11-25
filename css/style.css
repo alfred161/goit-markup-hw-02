@@ -7,18 +7,13 @@
   --dirty-white: #f4f4fd;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 body {
-  color: var(--light-grey);
   font-family: "Roboto", sans-serif;
+  color: var(--light-grey);
   background-color: var(--white);
 }
 
-.logo {
+/* .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -26,62 +21,62 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light-blue);
-}
+} */
 
-.header-logo-studio {
+/* .header-logo-studio {
   color: var(--grey);
-}
+} */
 
-.list {
+/* .list {
   list-style: none;
-}
+} */
 
-nav li a:first-child {
+/* .link {
+  text-decoration: none;
+} */
+
+/* nav li a:first-child {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--grey);
-}
+} */
 
-nav li a:first-child:hover,
+/* nav li a:first-child:hover,
 nav li a:first-child:focus {
   color: var(--light-blue-focus);
-}
+} */
 
-.link {
-  text-decoration: none;
-}
-
-.address {
+/* .address {
   font-style: normal;
-}
+} */
 
-.address a {
+/* .address a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-grey);
-}
+} */
 
-.address a:hover,
+/* .address a:hover,
 .address a:focus {
   color: var(--light-blue-focus);
-}
+} */
 
-.section-one {
+/* .section-one {
   background-color: var(--grey);
-}
+} */
 
-.section-one-header {
+/* .section-one-header {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--white);
-}
+} */
 
-.order {
+/* .order {
   background-color: var(--light-blue);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -89,88 +84,89 @@ nav li a:first-child:focus {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
-}
+} */
 
-.order:hover,
+/* .order:hover,
 .order:focus {
   background-color: var(--light-blue-focus);
   cursor: pointer;
-}
+} */
 
-.section-two-header {
+/* .section-two-header {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--grey);
-}
+} */
 
-.section-two-content {
+/* .section-two-content {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-grey);
-}
+} */
 
-.section-three {
+/* .section-three {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   color: var(--grey);
-}
+} */
 
-.section-four {
+/* .section-four {
   background-color: var(--dirty-white);
-}
+} */
 
-.section-four-header {
+/* .section-four-header {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--grey);
-}
+} */
 
-.section-four ul li {
+/* .section-four ul li {
   background-color: var(--white);
-}
-.section-four li:first-child {
+} */
+
+/* .section-four li:first-child {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--grey);
-}
+} */
 
-.team-member {
+/* .team-member {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-}
+} */
 
-.designation {
+/* .designation {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-grey);
-}
+} */
 
-.footer {
+/* .footer {
   background-color: var(--grey);
-}
+} */
 
-.footer-content {
+/* .footer-content {
   line-height: 1.5;
   color: var(--dirty-white);
   letter-spacing: 0.02em;
-}
+} */
 
-.footer-logo-studio {
+/* .footer-logo-studio {
   color: var(--dirty-white);
-}
+} */
 
-.profile-button {
+/* .profile-button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -178,30 +174,30 @@ nav li a:first-child:focus {
   letter-spacing: 0.04em;
   color: var(--light-blue);
   background-color: var(--dirty-white);
-}
+} */
 
-.profile-button:hover,
+/* .profile-button:hover,
 .profile-button:focus {
   color: var(--white);
   background-color: var(--light-blue-focus);
   cursor: pointer;
-}
+} */
 
-.service {
+/* .service {
   text-decoration: none;
-}
+} */
 
-.service-description {
+/* .service-description {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--grey);
-}
+} */
 
-.service-type {
+/* .service-type {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-grey);
-}
+} */
